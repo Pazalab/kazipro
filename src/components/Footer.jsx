@@ -64,10 +64,10 @@ const Footer = () => {
                                                              <span><HiOutlineEnvelopeOpen /></span>
                                                              <h3>support@kazipro.co.ke</h3>
                                                       </li>
-                                                      <li>
+                                                      {/* <li>
                                                              <span><SlLocationPin /></span>
-                                                             <h3>Nairobi CBD / Westlands</h3>
-                                                      </li>
+                                                             <h3>Worldwide</h3>
+                                                      </li> */}
                                               </ul>
                                      </div>
                                      <div className="footer-column services">
