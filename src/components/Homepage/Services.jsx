@@ -1,8 +1,7 @@
-import React from 'react'
 import { minorServices } from '../../data/minor-services'
-import { CgArrowLongRight } from "react-icons/cg"
-import { NavLink } from 'react-router-dom'
-import Pricing from './Pricing'
+import { Link } from 'react-router-dom'
+import { GoArrowUpRight } from "react-icons/go";
+
 const Services = () => {
   return (
     <div id="services" className='services-section'>
@@ -19,9 +18,11 @@ const Services = () => {
                                                       </div>
                                                       <h3>{ms.service_title}</h3>
                                                       <p>{ms.service_description}</p>
+
+                                                      <Link to={ms.link}>Explore More <span><GoArrowUpRight /></span></Link>
                                                </div>
                                             )}
-                                            <div className="service-btn">
+                                            {/* <div className="service-btn">
                                                       <NavLink to="/service/recruitment-for-companies">
                                                               <div className="service-b">
                                                                        <div className="service-b-container">
@@ -30,7 +31,7 @@ const Services = () => {
                                                                        <h4>View All Services</h4>
                                                               </div>
                                                       </NavLink>
-                                            </div>
+                                            </div> */}
                                 </div>
 
                                 

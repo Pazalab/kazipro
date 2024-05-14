@@ -31,7 +31,7 @@ const Navbar = () => {
                                       </div>
                                       <div className="quick-location">
                                               <span><SlLocationPin /></span>
-                                              <p>Nairobi CBD / Westlands</p>
+                                              <p>Worldwide</p>
                                       </div>
                              </div>
                              <div className="quick-socials">

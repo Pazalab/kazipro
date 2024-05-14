@@ -170,11 +170,12 @@ const Pricing = () => {
                                  <div className="pricing-moja">
                                           <h4><span><MdOutlineStarRate /></span> Executive</h4>
                                           {/* <h6>Best for Professionals</h6> */}
-                                          <select onChange={(e) => checkExecutivePricing(e.target.value)}>
+                                          {/* <select onChange={(e) => checkExecutivePricing(e.target.value)}>
                                                        <option value="0-5">0 to 5 years of Experience</option>
                                                        <option value="6-10">6 to 10 years of Experience</option>
                                                        <option value="11-20">11 to 20 years of Experience</option>
-                                           </select>
+                                           </select> */}
+                                           <h2>Starting From</h2>
                                           <div className="price">
                                                    <span className="pricing-icon">Kshs.</span>
                                                    <h5>{executive.toLocaleString()} /=</h5>
